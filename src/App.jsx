@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar.jsx";
+// import Navbar from "./Components/Navbar/Navbar.jsx";
 import LightRays from "./blocks/Backgrounds/LightRays/LightRays.jsx";
 import Aurora from "./blocks/Backgrounds/Aurora/Aurora.jsx";
 import BlurText from "./blocks/TextAnimations/BlurText/BlurText.jsx";
@@ -12,23 +12,17 @@ function App() {
 
 
     <div className="relative h-screen w-full overflow-hidden bg-black">
-      
-      <Navbar/>
+
 
       {/* Background */}
       <div style={{ width: '100%', height: '600px', position: 'relative' }}>
-        <LightRays
-          raysOrigin="top-center"
-          raysColor="#FFFFFF"
-          raysSpeed={1.5}
-          lightSpread={0.8}
-          rayLength={1.2}
-          followMouse={true}
-          mouseInfluence={0.1}
-          noiseAmount={0.1}
-          distortion={0.05}
-          className="custom-rays"
+        <Aurora
+          colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
         />
+
       </div>
 
       {/* Foreground Content */}
