@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
 
     return (
-        <div className='bg-transparent flex justify-center items-center gap-16 py-3 px-10 rounded-full backdrop-blur-md bg-opacity-50 text-white shadow-lg'>
+        <div className='absolute bg-transparent flex justify-between items-center gap-16 py-3 px-10 left-1/2 translate-x-[-50%]  top-[20px] rounded-full backdrop-blur-md bg-opacity-50 text-white shadow-lg z-10'>
             <ul className='flex gap-16 text-xl'>
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
