@@ -29,7 +29,7 @@ function Hero() {
                         animateBy="words"
                         direction="top"
                         onAnimationComplete={handleAnimationComplete}
-                        className="text-7xl font-bold text-white text-center"
+                        className="text-7xl font-[Lato, sans-serif] font-bold text-white text-center"
                     />
                     {/* <p className="mt-4 text-lg md:text-xl text-gray-300">
           Exploring React, Animations & Creativity ✨
@@ -37,7 +37,7 @@ function Hero() {
                     <div className="pt-8 pb-8">
                         <SplitText
                             text="Hi, I’m Manik Sharma — a passionate learner and aspiring developer."
-                            className="text-3xl antialiased text-yellow-400"
+                            className="text-3xl font-[Lato, sans-serif] antialiased text-yellow-400"
                             delay={50}
                             duration={0.2}
                             ease="power3.out"
